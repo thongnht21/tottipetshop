@@ -1,0 +1,274 @@
+.box-center {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+.header img{
+    width: 100%;
+    text-align: center;
+} 
+
+
+
+
+
+
+
+.menu{
+    background-color: rgb(245, 202, 9);
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+.menu>ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: 150px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.thucung :hover>a{
+    color: white;
+}
+.thucung{
+    margin: 0 40px;
+    font-size: 25pt;
+    position: relative;
+   
+}
+.thucung a{
+    color: black;
+    
+}
+
+ul li a:hover{
+    color: white;
+}
+
+.menucon li{
+    display: block;
+    padding: 5px 20px;
+
+}
+.menucon {
+    overflow: hidden;
+    display: none;
+    z-index: 99;
+    width: 270px;
+    position: absolute;
+    flex-direction: column;
+    padding: 0;
+    background-color: rgb(245, 202, 9);
+    border-radius: 10px;
+  
+}
+
+.thucung:hover .menucon {
+    display: flex;
+    overflow: visible;
+}
+
+.box--center{
+    margin: 0 auto;
+    
+}
+.box-left{
+    float: left;
+    width: 30%;
+    height: 400px;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: 5px solid rgb(245, 202, 9);
+    background-color: rgb(252, 213, 219);
+}
+label{
+    color: black;
+    font-size: 20pt;
+}
+.khung{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.o{
+    width: 20px;
+    height: 20px;
+}
+button{
+    background-color: pink;
+    border-radius: 10px;
+    padding: 0px 30px;
+    font-size: 15pt;
+}
+.all :hover button {
+    color: white;
+    background-color: rgb(99, 248, 228);
+}
+
+.box-right{
+    float: left; 
+    width: 820px;
+    height: 1000px; 
+    border: 5px solid yellow;
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: rgb(252, 213, 219);
+    margin-bottom: 20px;
+ }
+ .all{
+    margin: 0 auto;
+    border-radius: 5px;
+   
+}
+.all form{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+
+
+.hoten input{
+    width: 552px;
+height: 30px;
+border-radius: 10px;
+}
+
+
+.tendangnhap input{
+    width: 552px;
+height: 30px;
+border-radius: 10px;
+}
+
+
+.ngaysinh input{
+    width: 552px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.nghenghiep select{
+    width: 552px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+
+
+.gioitinh{
+    position: relative;
+    
+}
+.cangioitinh label{
+    padding: 0 5px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(252, 213, 219);
+}
+.chongioitinh{
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 2px solid rgb(43, 39, 39);
+    margin-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.nghenghiep{
+    margin-top: 30px;
+}
+.nghenghiep input{
+ margin-top: 10px;
+ border-radius: 10px;
+}
+
+
+
+
+.sothich{
+    position: relative;
+    
+}
+.cansothich label{
+    padding: 0 5px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(252, 213, 219);
+}
+.chonsothich{
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 2px solid rgb(43, 39, 39);
+    margin-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+
+.ghichu{
+    margin-top: 10px;
+}
+.ghichu textarea{
+    border-radius: 10px;
+   
+}
+
+
+
+.hr{
+    display: flex;
+    margin-top: 0px;
+}
+.dangki button{
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 15pt;
+}
+.dangki:hover button{
+    color: white;
+    background-color: rgb(99, 248, 228);
+}
+.nhaplai button{
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 15pt;
+   
+}
+.nhaplai:hover button{
+    color: white;
+    background-color: rgb(99, 248, 228);
+}
+
+
+.footer img{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+

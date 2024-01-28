@@ -1,0 +1,116 @@
+.box-center {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+.header img{
+    width: 100%;
+    text-align: center;
+} 
+
+
+
+
+
+
+
+.menu{
+    background-color: rgb(245, 202, 9);
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+.menu>ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: 150px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.thucung :hover>a{
+    color: white;
+}
+.thucung{
+    margin: 0 40px;
+    font-size: 25pt;
+    position: relative;
+   
+}
+.thucung a{
+    color: black;
+    
+}
+
+ul li a:hover{
+    color: white;
+}
+
+.menucon li{
+    display: block;
+    padding: 5px 20px;
+
+}
+.menucon {
+    overflow: hidden;
+    display: none;
+    z-index: 99;
+    width: 270px;
+    position: absolute;
+    flex-direction: column;
+    padding: 0;
+    background-color: rgb(245, 202, 9);
+    border-radius: 10px;
+  
+}
+
+.thucung:hover .menucon {
+    display: flex;
+    overflow: visible;
+}
+
+
+
+.box-center{
+    width: 100%;
+    height: 2000px;
+    margin: 0 auto;
+}
+table, tr,th,td
+{
+    border: 1px solid black;
+    margin: 20px auto;
+    
+}
+.ptll{
+ font-size: 20pt;
+}
+.dcll{
+font-size: 20pt;
+}
+.tren{
+    padding: 10px 70px;
+    font-size: 20pt;
+}
+
+.duoi{
+    padding: 10px 170px;
+    font-size: 20pt;
+
+}
+.duoi a{
+    text-decoration: none;
+    color: black;
+}
+.bando iframe{
+    margin-left: 330px;
+    width: 900px;
+}
+
+
+.footer img{
+    width: 100%;
+    text-align: center;
+}

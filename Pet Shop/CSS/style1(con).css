@@ -1,0 +1,138 @@
+.box-center {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+.header img{
+    width: 100%;
+    text-align: center;
+} 
+
+
+
+
+
+
+
+.menu{
+    background-color: rgb(245, 202, 9);
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+.menu>ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: 150px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.thucung :hover>a{
+    color: white;
+}
+.thucung{
+    margin: 0 40px;
+    font-size: 25pt;
+    position: relative;
+   
+}
+.thucung a{
+    color: black;
+    
+}
+
+ul li a:hover{
+    color: white;
+}
+
+.menucon li{
+    display: block;
+    padding: 5px 20px;
+
+}
+.menucon {
+    overflow: hidden;
+    display: none;
+    z-index: 99;
+    width: 270px;
+    position: absolute;
+    flex-direction: column;
+    padding: 0;
+    background-color: rgb(245, 202, 9);
+    border-radius: 10px;
+  
+}
+
+.thucung:hover .menucon {
+    display: flex;
+    overflow: visible;
+}
+
+
+
+
+
+
+
+
+
+
+.box--center{
+    margin: 0 auto;
+    
+}
+.box-left{
+    float: left;
+    width: 30%;
+    height: 1420px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: 5px solid rgb(245, 202, 9);
+}
+.hinhanh{
+    margin: 20px 10px;
+    width: 350px;
+    height: 440px;
+    border: 3px solid yellow;
+}
+.hinhanh a p{
+    margin-top: 10px;
+    font-size: 20pt;
+    color: black;
+}
+.hinhanh a{
+    text-decoration: none;
+}
+.hinhanh a img{
+    width: 300px;
+    height: 350px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+.box-right{
+    float: left; 
+    width: 830px;
+    height: auto; 
+    border: 5px solid yellow;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+ }
+ 
+.soluoc{
+    margin: 0 20px;
+    margin-bottom: 40px;
+}
+
+.footer img{
+    width: 100%;
+    text-align: center;
+}
+
+

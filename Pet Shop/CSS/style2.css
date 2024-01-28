@@ -1,0 +1,230 @@
+.box-center {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+.header img{
+    width: 100%;
+    text-align: center;
+} 
+
+
+
+
+
+
+
+.menu{
+    background-color: rgb(245, 202, 9);
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+.menu>ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: 150px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.thucung :hover>a{
+    color: white;
+}
+.thucung{
+    margin: 0 40px;
+    font-size: 25pt;
+    position: relative;
+   
+}
+.thucung a{
+    color: black;
+    
+}
+
+ul li a:hover{
+    color: white;
+}
+
+.menucon li{
+    display: block;
+    padding: 5px 20px;
+
+}
+.menucon {
+    overflow: hidden;
+    display: none;
+    z-index: 99;
+    width: 270px;
+    position: absolute;
+    flex-direction: column;
+    padding: 0;
+    background-color: rgb(245, 202, 9);
+    border-radius: 10px;
+  
+}
+
+.thucung:hover .menucon {
+    display: flex;
+    overflow: visible;
+}
+
+.box--center{
+    margin: 0 auto;
+    
+}
+
+.box-left{
+    float: left;
+    width: 30%;
+    height: 1500px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: 5px solid rgb(245, 202, 9);
+}
+.gtsoluoc{
+    background-color: pink;
+}
+.gtsoluoc p{
+    color: black;
+    font-size: 25pt;
+}
+.hinh{
+    margin: 20px 10px;
+    width: 350px;
+    height: 440px;
+    border: 3px solid yellow;
+}
+.hinh a p{
+    margin-top: 10px;
+    font-size: 20pt;
+    color: black;
+}
+.hinh a{
+    text-decoration: none;
+}
+.hinh a img{
+    width: 300px;
+    height: 350px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+
+.box-right{
+    float: left; 
+    width: 860px; 
+ }
+ 
+ .box-right-1{
+     height: 400px; 
+     color: rgb(31, 22, 22);
+     margin-bottom: 25px;
+     margin-top: 25px;
+     margin-left: 20px;
+     border: 5px solid rgb(245, 202, 9);
+ }
+ .box-right-2{
+     height: 400px; 
+     color: rgb(31, 22, 22);
+     margin-bottom: 25px;
+     margin-top: 25px;
+     margin-left: 20px;
+     border: 5px solid rgb(245, 202, 9);
+ }.box-right-3{
+     height: 400px; 
+     color: rgb(31, 22, 22);
+     margin-bottom: 25px;
+     margin-top: 25px;
+     margin-left: 20px;
+     border: 5px solid rgb(245, 202, 9);
+ }.box-right-4{
+     height: 400px; 
+     color: rgb(31, 22, 22);
+     margin-bottom: 25px;
+     margin-top: 25px;
+     margin-left: 20px;
+     border: 5px solid rgb(245, 202, 9);
+ }.box-right-5{
+     height: 400px; 
+     color: rgb(31, 22, 22);
+     margin-bottom: 25px;
+     margin-top: 25px;
+     margin-left: 20px;
+     border: 5px solid rgb(245, 202, 9);
+ }.box-right-6{
+     height: 400px; 
+     color: rgb(31, 22, 22);
+     margin-bottom: 25px;
+     margin-top: 25px;
+     margin-left: 20px;
+     border: 5px solid rgb(245, 202, 9);
+ }
+ 
+ .tieude{ 
+     margin-left: 35px;
+     margin-top: 10px;
+     font-size: 25px;
+     
+ 
+ }
+ .tieude a{
+     text-decoration: none;
+     color: black;
+ 
+ }
+ .tieude a:hover{
+     color: white;
+     background-color: rgb(245, 202, 9);
+     padding: 5px;
+     border: 5px solid white;
+     border-radius: 15px;
+ }
+ .hinhanh{
+     display: flex ;
+     margin-top: 20px;
+     margin-left: 13px;
+ }
+ .hinhanh img{
+     -webkit-transform:scale(1); /*Webkit: Thu nhỏ kích thước ảnh còn 0.8 so với ảnh gốc*/
+     -moz-transform:scale(0.8); /*Thu nhỏ đối với Mozilla*/
+     -o-transform:scale(0.8); /*Thu nhỏ đối với Opera*/
+     -webkit-transition-duration: 0.5s; /*Webkit: Thời gian phóng to, nhỏ ảnh*/
+     -moz-transition-duration: 0.5s; /*Như trên*/
+     -o-transition-duration: 0.5s; /*Như trên*/
+     /*opacity: 1; /*Độ mờ của hình ảnh*/
+     margin: 0 10px 5px 0; /*căn đều giữa ảnh*/
+     border: 2px solid rgb(245, 202, 9);
+     border-radius: 10px;
+ }
+ .hinhanh img:hover{
+     -webkit-transform:scale(1.1); /*Webkit: Tăng kích cỡ ảnh lên 1.1 lần*/
+     -moz-transform:scale(1.1); 
+     -o-transform:scale(1.1); 
+     box-shadow:0px 0px 30px gray; /*Đổ bóng bằng CSS3*/
+     -webkit-box-shadow:0px 0px 30px gray;
+     -moz-box-shadow:0px 0px 30px gray; 
+     opacity: 1; /*Độ mờ của hình ảnh*/
+     }
+ .hinhanh1{
+     margin-left: 20px;
+ }
+ .hinhanh2{
+     margin-left: 30px;
+     
+ }
+ .hinhanh3{
+     margin-left: 30px;
+ }
+ 
+ 
+ 
+
+.footer img{
+    width: 100%;
+    text-align: center;
+}
